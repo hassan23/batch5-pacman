@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-    - image: circleci/node:8.11.1
+    - image: circleci/node:8.15.1
     steps:
     - checkout
     - run:
@@ -12,7 +12,7 @@ jobs:
 
   client-test:
     docker:
-    - image: circleci/node:8.11.1
+    - image: circleci/node:8.15.1
     steps:
     - checkout
     - run:
@@ -22,7 +22,7 @@ jobs:
   
   server-test:
     docker:
-    - image: circleci/node:8.11.1
+    - image: circleci/node:8.15.1
     steps:
     - checkout
     - run:
