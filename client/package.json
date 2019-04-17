@@ -2,19 +2,19 @@
   "name": "Pacman",
   "version": "0.1.0",
   "dependencies": {
-    "@material-ui/core": "^3.9.2",
-    "axios": "^0.18.0",
-    "konva": "^3.2.0",
-    "pathfinding": "^0.4.18",
-    "prop-types": "^15.7.2",
-    "query-string": "^6.4.0",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-konva": "^16.8.4",
-    "react-router-dom": "^5.0.0",
+    "@material-ui/core": "3.9.2",
+    "axios": "0.18.0",
+    "konva": "3.2.0",
+    "pathfinding": "0.4.18",
+    "prop-types": "15.7.2",
+    "query-string": "6.4.0",
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
+    "react-konva": "16.8.4",
+    "react-router-dom": "5.0.0",
     "react-scripts": "2.1.8",
-    "socket.io-client": "^2.2.0",
-    "uuid": "^3.3.2"
+    "socket.io-client": "2.2.0",
+    "uuid": "3.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,7 +30,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.11.1"
+    "enzyme": "3.9.0",
+    "enzyme-adapter-react-16": "1.11.1"
   }
 }
